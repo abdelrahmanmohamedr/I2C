@@ -13,7 +13,7 @@ A complete RTL implementation of the I²C (Inter-Integrated Circuit) communicati
 - [Getting Started](#getting-started)
 - [References](#references)
 
-## 🔍 Protocol Overview
+## Protocol Overview
 
 ### I²C Communication Fundamentals
 
@@ -62,7 +62,7 @@ A complete I²C transaction consists of:
 #### Restart Condition
 A START condition generated without a preceding STOP, allowing the controller to maintain bus ownership while initiating a new transaction. Essential for combined read/write operations.
 
-## 🏗️ Design Architecture
+## Design Architecture
 
 ### System Block Diagram
 
@@ -102,7 +102,7 @@ A START condition generated without a preceding STOP, allowing the controller to
 - ACK/NACK generation
 - Data buffering
 
-## 📦 RTL Implementation Details
+## RTL Implementation Details
 
 ### I2C_Controller Design
 
@@ -149,7 +149,7 @@ Accumulates 8 bits into parallel format. Bit counter determines when complete by
 **ACK Generation Logic:**
 After receiving 8 bits, pulls SDA low during 9th clock to acknowledge, or leaves high for NACK.
 
-## 🧪 UVM Verification Environment
+## UVM Verification Environment
 
 ### Verification Architecture Overview
 
@@ -298,7 +298,7 @@ SystemVerilog assertions verifying:
 **I2C_assertion1 & I2C_assertion2:**
 System-level protocol checks validating complete transaction sequences.
 
-## 📁 Directory Structure
+## Directory Structure
 
 ```
 I2C-Protocol-Implementation/
@@ -388,7 +388,7 @@ I2C-Protocol-Implementation/
 4. **Static Timing Analysis**: Verification of timing requirements
 5. **Bitstream Generation**: Final programming file creation
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
