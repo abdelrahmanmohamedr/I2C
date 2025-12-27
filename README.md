@@ -9,7 +9,6 @@ A complete RTL implementation of the I²C (Inter-Integrated Circuit) communicati
 - [RTL Implementation Details](#rtl-implementation-details)
 - [UVM Verification Environment](#uvm-verification-environment)
 - [Directory Structure](#directory-structure)
-- [Synthesis and Implementation](#synthesis-and-implementation)
 - [Getting Started](#getting-started)
 - [References](#references)
 
