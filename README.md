@@ -421,13 +421,3 @@ Use provided TCL scripts to synthesize design for target FPGA. Review timing and
 ## 📚 References
 
 - I²C Specification: NXP Semiconductors UM10204
-
-
-## 👤 Author
-
-**Your Name**
-- LinkedIn: [Abdelrahman Mohamed](www.linkedin.com/in/abdelrahman-mohamed-053047274)
-- Email: abdelrahmanmohamed2304@gmail.com
----
-
-This repository serves as a reference implementation demonstrating professional RTL design practices and comprehensive UVM verification methodology for serial communication protocols.
