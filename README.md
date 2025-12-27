@@ -161,16 +161,11 @@ The verification strategy employs a three-tier approach:
 
 ### UVM Testbench Hierarchy
 
-The block level enviroment
-![block_uvm_env](images/uvm_env_1.png)
+#### Block Level Environment
+![Block Level UVM Environment](images/uvm_env_block.png)
 
-
-
-
-The System level enviroment
-![system_uvm_env](images/uvm_env_1.png)
-
-### Configuration Object
+#### System Level Environment
+![System Level UVM Environment](images/uvm_env_system.png)
 
 ### UVM Component Descriptions
 
